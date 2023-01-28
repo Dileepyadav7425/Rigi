@@ -1,0 +1,195 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.header{
+    height: 50px;
+    width: 100%;
+    background-color: yellow;
+
+}
+ul li {
+    list-style-type: none;
+    display: inline-block;
+    color: blue;
+    font-weight: 500;
+}
+
+.nav-left {
+    float: left;
+    padding-top: 18px;
+    padding-left: 120px;
+}
+.nav-right {
+    float: right;
+    padding-top: 8px;
+    padding-right: 250px;
+    text-decoration: none;
+}
+.nav-right button{
+    border-radius: 14px;
+    height: 30px;
+    width: 120px;
+    background-color: blue;
+    color: white;
+    font-weight: 700;
+
+}
+
+    
+
+.section-1-right h3{
+   
+    color: yellow;
+    display: inline-block;
+}
+.section-1-right h1{
+    color: white;
+}
+.section-1-right h2{
+   
+    color: white;
+}
+
+
+
+.section-1{
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    background-color: black;
+    justify-content: space-between;
+}
+.section-1-left{
+ height: 320px;
+    width: 30%;
+     
+}
+.section-1-right{
+    height: 320px;
+    padding: 20px;
+
+    
+       
+}
+.image1{
+    width: 100%;
+    height: 320px;
+}
+.name{
+    width: 90%;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-between; */
+    justify-content: space-between;
+}
+#tick-mark {
+    position: relative;
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+}
+.blackpart{
+    width: 40%;
+    height: 10%;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+/* .section2{
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+   
+
+}
+.section2left{
+    height: 320px;
+    width: 60%;
+}
+.section2right{
+    height: 320px;
+    width: 40%;
+}
+.image2{
+    height: 20px;
+    width: 40%;
+     */
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 300px;
+}
+.image2{
+    height: 290px;
+    padding: 10 10 10 10;
+}
+.black{
+    text-align: center;
+    background-color: black;
+    height: 40px;
+    width: 90%;
+    color: white;
+    padding-bottom: 10px;
+}
+.logo{
+    padding-bottom: 20px;
+    text-align: center;
+}
+.right{
+    text-align: center;
+    border-radius: 20px;
+    background-color: yellow;
+}
+.btnset{
+    text-align: center;
+}
+.tick{
+    text-align: left;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    width: 80%;
+}
+
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: black;
+    padding: auto;
+  }
+  
+  .flex-container > div {
+    background-color: #f1f1f1;
+    width: 250px;
+    margin: 10px;
+    height: 200px;
+    text-align: center;
+    line-height: 25px;
+    font-size: 30px;
+   padding-left: 40px;
+  }
+  .footer{
+    height: 90px;
+    width: 100%;
+    background-color: blue;
+    text-align: center;
+    padding-top: 20px;
+    
+  
+  }
+  .fbtn{
+    text-align: center;
+    height: 50px;
+    width: 200px;
+    background-color: yellow;
+    font-weight: 1000;
+    
+  }
+.flex-container > h1{
+    color: white;
+}
+
+
+
